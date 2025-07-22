@@ -477,8 +477,7 @@ docker system prune -a
 
 **Tomorrow Morning Process:**
 1. `docker build -t aem-dispatcher-learning .`
-2. `docker run -p 8080:80 -v $(pwd)/htdocs:/usr/local/apache2/htdocs aem-dispatcher-learning`
-3. Fresh start with morning brain! ☕
+2. `docker run -p 8080:80 -v $(pwd)/htdocs:/usr/local/apache2/htdocs aem-dispatcher-learning`s
 
 ### Maven Issues:
 - Port conflicts: Use different port `-p 8081:80`

@@ -5,7 +5,7 @@
 ### Basic Learning Structure
 ```
 aem-dispatcher-learning/
-├── htdocs/                    # Main document root
+├── htdocs/                   # Main document root
 │   ├── index.html            # Default site homepage
 │   └── public/               # Public site subdirectory
 │       └── index.html        # Public site homepage
@@ -23,6 +23,19 @@ aem-dispatcher-learning/
 │           └── index.html
 └── etc.clientlibs/
     └── [CSS/JS files]
+```
+
+### Real-World PROJECT Equivalent
+```
+aem-dispatcher-learning/
+├── htdocs/                         # Your document root
+│   ├── index.html
+│   └── public/index.html
+├── my-config/
+│   ├── httpd.conf                  # Main Apache config
+│   └── modules.d/
+│       └── www.example.com/
+│           └── vhost.rules         # VHost config
 ```
 
 ### Configuration Structure
