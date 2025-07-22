@@ -1,5 +1,5 @@
 #Minimal viable config for static HTML hosting via Docker:
-
+```
 LoadModule mpm_event_module modules/mod_mpm_event.so
 LoadModule unixd_module modules/mod_unixd.so
 LoadModule dir_module modules/mod_dir.so
@@ -11,7 +11,7 @@ Add these if you're using:
 mod_rewrite.so → rewrites
 mod_alias.so → alias paths
 mod_headers.so → custom headers (e.g., CSP, CORS)
-
+```
 
 If you want to check inside the running container directly:
 Run an interactive shell inside your container with the config file accessible:
